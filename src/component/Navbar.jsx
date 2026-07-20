@@ -1,34 +1,26 @@
-function Navbar(){
-return (
+import  "./CSS/Navbar.css";
 
-<>
-<div >
-    <div className="logo">
+function Navbar() {
+  return (
+    <nav className="navbar">
 
+      <div className="logo">
+        <h2>Job<span>Hustle</span></h2>
+      </div>
 
+      <ul className="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
 
-    </div>
+      <button className="nav-btn">
+        Get Started
+      </button>
 
-    <div className="navtext">
-<ul>
-    <li>Home</li>
-    <li>Features</li>
-    <li>About</li>
-    <li> Login</li>
-    <li>Get started</li>
-</ul>
-    </div>
-</div>
-
-
-
-
-</>
-
-)
-
-
-
+    </nav>
+  );
 }
 
 export default Navbar;

@@ -1,0 +1,77 @@
+/* =========================
+   HOME SECTION
+========================= */
+
+.home {
+
+    width: 100%;
+
+    min-height: calc(100vh - 80px);
+
+    background: #0B2E26;
+
+}
+
+
+/* =========================
+   SWIPER
+========================= */
+
+.swiper {
+
+    width: 100%;
+
+    height: calc(100vh - 80px);
+
+}
+
+
+/* =========================
+   EACH SLIDE
+========================= */
+
+.swiper-slide {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+/* =========================
+   IMAGE
+========================= */
+
+.swiper-slide img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+}
+
+
+/* =========================
+   PAGINATION
+========================= */
+
+.swiper-pagination-bullet {
+
+    background: white !important;
+
+    opacity: .6;
+
+}
+
+.swiper-pagination-bullet-active {
+
+    background: #1DBF73 !important;
+
+    opacity: 1;
+
+}
